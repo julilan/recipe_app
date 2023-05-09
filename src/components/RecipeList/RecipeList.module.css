@@ -1,0 +1,16 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 1rem;
+}
+
+input {
+  font-family: inherit;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  margin: 1rem;
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import { findFlagUrlByCountryName } from "country-flags-svg";
 import Loader from "../UI/Loader";
 import classes from "./RecipeSingle.module.css";
 
@@ -26,6 +27,9 @@ const RecipeSingle = () => {
   return (
     <div className={classes.info}>
       <h2>{data.name}</h2>
+      <figure>
+        <img src={findFlagUrlByCountryName(data.origin)} alt={data.origin} />
+      </figure>
       <img src={data.image} alt={data.name} />
       <p>{data.description}</p>
       <p>{data.author}</p>

@@ -43,7 +43,12 @@ const RecipeList = () => {
       <h2>Our tasty recipes</h2>
       <div className={classes.cards}>
         {searchFilter.map((card) => (
-          <Card key={card.name} name={card.name} image={card.image} />
+          <Card
+            key={card.name}
+            name={card.name}
+            image={card.image}
+            origin={card.origin}
+          />
         ))}
       </div>
     </>

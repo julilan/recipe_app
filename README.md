@@ -31,6 +31,7 @@ npm install
 npm install react-router-dom@6
 npm install axios
 npm install json-server --save-dev
+npm install country-flags-svg
 ```
 
 ## JSON server

@@ -6,3 +6,10 @@
   width: 400px;
   height: auto;
 }
+
+.info figure img {
+  width: 60px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #333;
+}

@@ -1,6 +1,7 @@
 {
   "recipes": [
     {
+      "id": 1,
       "name": "Good soup",
       "author": "Helga",
       "origin": "Finland",
@@ -10,6 +11,7 @@
       "instructions": "Make it, eat it."
     },
     {
+      "id": 2,
       "name": "Salad",
       "author": "Janne",
       "origin": "Estonia",

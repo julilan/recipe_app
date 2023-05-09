@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./components/Home/Home";
 import RecipeList from "./components/RecipeList/RecipeList";
-import RecipeSingle from "./components/RecipeSingle";
+import RecipeSingle from "./components/RecipeSingle/RecipeSingle";
 import Form from "./components/Form/Form";
 
 const App = () => {

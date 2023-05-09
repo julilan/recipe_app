@@ -1,0 +1,13 @@
+{
+  "recipes": [
+    {
+      "name": "Good soup",
+      "author": "Julianna",
+      "origin": "Finland",
+      "description": "It's a good soup",
+      "image": "soup.png",
+      "ingredients": [{ "quantity": "1 l", "ingredient": "water" }],
+      "instructions": "Make it, eat it."
+    }
+  ]
+}

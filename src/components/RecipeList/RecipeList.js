@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "../UI/Card";
 import Loader from "../UI/Loader";
-import classes from "./RecipeList.module.css";
+import "./RecipeList.css";
 
 const RecipeList = () => {
   const [data, setData] = useState([]);
@@ -37,11 +37,12 @@ const RecipeList = () => {
     <>
       <input
         type="text"
+        id="search"
         placeholder="Search for recipes"
         onChange={searchInputHandler}
       />
       <h2>Our tasty recipes</h2>
-      <div className={classes.cards}>
+      <div className="cards">
         {searchFilter.map((card) => (
           <Card
             key={card.name}

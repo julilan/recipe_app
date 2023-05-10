@@ -6,11 +6,11 @@
   margin: 1rem;
 }
 
-input {
+#search {
   font-family: inherit;
   width: 200px;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #333;
-  margin: 1rem;
+  margin: 1rem auto;
 }

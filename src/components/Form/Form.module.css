@@ -1,0 +1,59 @@
+.form {
+  text-align: left;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form input {
+  margin: 0;
+}
+
+.form input,
+select,
+textarea {
+  width: 300px;
+  margin-bottom: 12px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.form input:focus {
+  border: 1px solid rgba(255, 166, 0, 0.56);
+}
+
+.form select:focus {
+  border: 1px solid rgba(255, 166, 0, 0.56);
+}
+
+.form textarea:focus {
+  border: 1px solid rgba(255, 166, 0, 0.56);
+}
+
+.form label,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+}
+
+.form select {
+  width: 318px;
+}
+
+.form label {
+  margin-bottom: 8px;
+}
+
+.ingredients {
+  width: 318px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredients input {
+  width: 130px;
+}

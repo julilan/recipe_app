@@ -7,18 +7,66 @@
       "origin": "Finland",
       "description": "It's a good soup",
       "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-      "ingredients": [{ "quantity": "1 l", "ingredient": "water" }],
+      "ingredients": [
+        {
+          "quantity": "1 l",
+          "ingredient": "water"
+        }
+      ],
       "instructions": "Make it, eat it."
     },
     {
       "id": 2,
       "name": "Salad",
-      "author": "Janne",
-      "origin": "Estonia",
+      "author": "Rob",
+      "origin": "Netherlands",
       "description": "It's a good salad",
       "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "ingredients": [{ "quantity": "1 l", "ingredient": "water" }],
-      "instructions": "Make it, eat it."
+      "ingredients": [
+        {
+          "quantity": "225g",
+          "ingredient": "halloumi"
+        },
+        {
+          "quantity": "2 large",
+          "ingredient": "oranges"
+        },
+        {
+          "quantity": "100g bag",
+          "ingredient": "spinach"
+        }
+      ],
+      "instructions": "Peel oranges and mix in a bowl with spinach. Cook halloumi slices in a frying pan until golden on both sides"
+    },
+    {
+      "name": "asasd",
+      "author": "asddsa",
+      "origin": "Albania",
+      "description": "adsasd",
+      "image": "adsasd",
+      "ingredients": [
+        {
+          "quantity": "asdsda",
+          "ingredient": "asddas"
+        }
+      ],
+      "instructions": "asdasd",
+      "id": 3
+    },
+    {
+      "name": "adasda",
+      "author": "asdsad",
+      "origin": "Algeria",
+      "description": "adasad",
+      "image": "asads",
+      "ingredients": [
+        {
+          "quantity": "asads",
+          "ingredient": "asdsad"
+        }
+      ],
+      "instructions": "asdasdas",
+      "id": 4
     }
   ]
 }

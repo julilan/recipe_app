@@ -1,4 +1,4 @@
-# TasteIT Recipe App
+# Recipe App
 
 Final task for REACT23K
 

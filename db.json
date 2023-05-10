@@ -39,34 +39,23 @@
       "instructions": "Peel oranges and mix in a bowl with spinach. Cook halloumi slices in a frying pan until golden on both sides"
     },
     {
-      "name": "asasd",
-      "author": "asddsa",
-      "origin": "Albania",
-      "description": "adsasd",
-      "image": "adsasd",
+      "name": "Pizza",
+      "author": "Giuseppe",
+      "origin": "Italy",
+      "description": "good pizza with pineapple",
+      "image": "pineapplewithpizza.jpeg",
       "ingredients": [
         {
-          "quantity": "asdsda",
-          "ingredient": "asddas"
+          "quantity": "1 large",
+          "ingredient": "pineapple"
+        },
+        {
+          "quantity": "1 bag",
+          "ingredient": "cheese"
         }
       ],
-      "instructions": "asdasd",
+      "instructions": "Bake pizza",
       "id": 3
-    },
-    {
-      "name": "adasda",
-      "author": "asdsad",
-      "origin": "Algeria",
-      "description": "adasad",
-      "image": "asads",
-      "ingredients": [
-        {
-          "quantity": "asads",
-          "ingredient": "asdsad"
-        }
-      ],
-      "instructions": "asdasdas",
-      "id": 4
     }
   ]
 }

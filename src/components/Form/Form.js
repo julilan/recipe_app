@@ -11,9 +11,12 @@ const Form = () => {
     origin: "",
     description: "",
     image: "",
-    ingredients: [{ quantity: "", ingredient: "" }],
+    ingredients: [],
     instructions: "",
   });
+  const [ingredients, setIngredients] = useState([
+    { quantity: "", ingredient: "" },
+  ]);
 
   const changeHandler = (e) => {
     e.preventDefault();
@@ -36,6 +39,11 @@ const Form = () => {
       ingredient: e.target.value,
     };
     setRecipe({ ...recipe, ingredients: newIngredients });
+  };
+
+  const addNewIngredientHandler = (e) => {
+    e.preventDefault();
+    setIngredients([...ingredients, { quantity: "", ingredient: "" }]);
   };
 
   const submitHandler = (e) => {
@@ -77,12 +85,15 @@ const Form = () => {
       <label htmlFor="image">Image</label>
       <input type="text" id="image" name="image" onChange={changeHandler} />
       <label htmlFor="ingredients">Ingredients</label>
-      <Ingredient
-        index={0}
-        quantityChange={handleQuantityChange}
-        ingredientChange={handleIngredientChange}
-      />
-      <button>Add more</button>
+      {ingredients.map((ingredient, i) => (
+        <Ingredient
+          key={i}
+          index={i}
+          quantityChange={handleQuantityChange}
+          ingredientChange={handleIngredientChange}
+        />
+      ))}
+      <button onClick={addNewIngredientHandler}>Add more</button>
       <label htmlFor="instructions">Instructions</label>
       <textarea
         name="instructions"

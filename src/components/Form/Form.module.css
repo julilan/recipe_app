@@ -1,7 +1,11 @@
 .form {
   text-align: left;
   width: 300px;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
+}
+
+.form h2 {
+  padding: 1rem 0;
 }
 
 .form input {

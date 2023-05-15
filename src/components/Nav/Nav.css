@@ -1,12 +1,17 @@
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 360px;
+}
+
 nav ul li {
   display: inline-block;
 }
-
 nav ul li a {
-  text-transform: uppercase;
-  padding: 1rem;
+  font-size: inherit;
 }
 
 nav ul li a.active {
-  color: orange;
+  color: #68adea;
 }

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { findFlagUrlByCountryName } from "country-flags-svg";
-import Loader from "../UI/Loader";
+import Loader from "../UI/Loader/Loader";
 import classes from "./RecipeSingle.module.css";
 
 const RecipeSingle = () => {
@@ -18,7 +18,7 @@ const RecipeSingle = () => {
         setData(res.data[0]);
         setIsLoading(false);
       });
-  }, []);
+  }, [params.recipesingle]);
 
   if (isLoading || data === null) {
     return <Loader />;

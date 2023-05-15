@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Card from "../UI/Card";
-import Loader from "../UI/Loader";
+import Card from "../UI/Card/Card";
+import Loader from "../UI/Loader/Loader";
 import "./RecipeList.css";
 
 const RecipeList = () => {
@@ -19,8 +19,10 @@ const RecipeList = () => {
   }, []);
 
   useEffect(() => {
-    const filteredData = data.filter((item) =>
-      item.name.toLowerCase().includes(searchInput.toLowerCase())
+    const filteredData = data.filter(
+      (item) =>
+        item.name.toLowerCase().includes(searchInput.toLowerCase()) ||
+        item.origin.toLowerCase().includes(searchInput.toLowerCase())
     );
     setSearcFilter(filteredData);
   }, [searchInput, data]);
@@ -38,7 +40,7 @@ const RecipeList = () => {
       <input
         type="text"
         id="search"
-        placeholder="Search for recipes"
+        placeholder="Search for recipes by name or country"
         onChange={searchInputHandler}
       />
       <h2>Our tasty recipes</h2>

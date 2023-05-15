@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <Link to="/">
-        <h1>Tasty Recipes</h1>
+        <h1>Recipe Realm</h1>
       </Link>
       <Nav />
     </header>

@@ -1,0 +1,10 @@
+.home h2 {
+  margin: 2rem;
+}
+
+.card_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}

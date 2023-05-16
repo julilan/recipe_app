@@ -24,7 +24,7 @@ const Home = () => {
         <LandingCard
           heading="Want to know more about our projects?"
           info="Visit our programme homepage"
-          link="https://www.bc.fi/koulutukset/koodaajakoulutus-tieto-ja-viestintatekniikan-perustutkinnon-osat/"
+          link="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
           linktext="Business College Helsinki homepage"
         />
       </div>

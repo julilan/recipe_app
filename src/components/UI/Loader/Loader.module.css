@@ -4,8 +4,8 @@
   top: 50%;
   z-index: 1;
   margin: -76px 0 0 -76px;
-  border: 16px solid white; /* White */
-  border-top: 16px solid orange; /* Dark green */
+  border: 16px solid white;
+  border-top: 16px solid #68adea;
   border-radius: 50%;
   width: 120px;
   height: 120px;

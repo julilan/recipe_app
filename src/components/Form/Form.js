@@ -47,7 +47,7 @@ const Form = () => {
   };
 
   const submitHandler = (e) => {
-    e.preventDefault();
+    //e.preventDefault();
     axios
       .post("http://localhost:4001/recipes", recipe)
       .then((res) => {
@@ -61,6 +61,7 @@ const Form = () => {
           ingredients: [{ quantity: "", ingredient: "" }],
           instructions: "",
         });
+        window.alert("Recipe posted");
       })
       .catch((err) => console.log("error: ", err));
   };

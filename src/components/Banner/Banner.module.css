@@ -1,5 +1,4 @@
 .banner {
-  background-color: rgb(86, 83, 83);
   color: white;
   padding: 1rem;
   height: 250px;
@@ -21,4 +20,16 @@ h4 {
   border: 1px solid #68adea;
   padding: 6px;
   border-radius: 2px;
+}
+
+.banner video {
+  width: 100vw;
+  height: 45vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }

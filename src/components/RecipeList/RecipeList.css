@@ -18,5 +18,9 @@
 }
 
 #search:focus {
-  border: 1px solid rgba(255, 166, 0, 0.56);
+  border: 1px solid #68adea;
+}
+
+.recipe_list {
+  margin: 1rem 0 0.5rem;
 }

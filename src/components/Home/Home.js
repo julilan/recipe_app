@@ -1,12 +1,20 @@
 import React from "react";
-import Banner from "../Banner/Banner";
+import { Link } from "react-router-dom";
 import LandingCard from "../UI/LandingCard/LandingCard";
+import video from "../../assets/video.mp4";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div className="home">
-      <Banner />
+      <div className="banner">
+        <video id="bg-video" src={video} autoPlay loop muted />
+        <h4>Realm of Recipes</h4>
+        <p>
+          Recipe app - Final task for React Basics course for REACT23K group
+        </p>
+        <Link to="/recipes">Browse recipes</Link>
+      </div>
       <h2>Looking for recipes?</h2>
       <div className="card_wrapper">
         <LandingCard

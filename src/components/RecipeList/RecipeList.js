@@ -37,13 +37,14 @@ const RecipeList = () => {
 
   return (
     <>
+      <h2 className="recipe_list">Search for recipes</h2>
       <input
         type="text"
         id="search"
-        placeholder="Search for recipes by name or country"
+        placeholder="Search by name or country"
         onChange={searchInputHandler}
       />
-      <h2>Our tasty recipes</h2>
+      <h2 className="recipe_list">Our tasty recipes</h2>
       <div className="cards">
         {searchFilter.map((card) => (
           <Card

@@ -1,10 +1,10 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import classes from "./Main.module.css";
+//import classes from "./Main.module.css";
 
 const Main = () => {
   return (
-    <main className={classes.main}>
+    <main>
       <Outlet />
     </main>
   );

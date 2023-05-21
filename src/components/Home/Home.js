@@ -15,7 +15,7 @@ const Home = () => {
         </p>
         <Link to="/recipes">Browse recipes</Link>
       </div>
-      <h2>Looking for recipes?</h2>
+      <h2 id="landingCards_heading">Looking for recipes?</h2>
       <div className="card_wrapper">
         <LandingCard
           heading="Browse recipes"

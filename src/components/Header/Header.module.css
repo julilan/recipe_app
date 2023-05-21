@@ -16,3 +16,12 @@
   margin-left: 2rem;
   font-size: 1rem;
 }
+
+@media (max-width: 600px) {
+  .header {
+    justify-content: center;
+  }
+  .header h1 {
+    margin-left: 1rem;
+  }
+}

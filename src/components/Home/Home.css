@@ -20,7 +20,7 @@
 }
 
 .banner p,
-h4 {
+.banner a {
   margin: 1rem;
   padding-bottom: 1.5rem;
   font-size: 20px;
@@ -32,7 +32,6 @@ h4 {
   border: 1px solid #68adea;
   padding: 6px;
   border-radius: 2px;
-  font-size: 20px;
 }
 
 .banner video {
@@ -45,4 +44,28 @@ h4 {
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+@media (max-width: 600px) {
+  .banner p,
+  .banner a {
+    font-size: 1rem;
+  }
+
+  .banner {
+    height: 55vh;
+  }
+
+  .banner video {
+    height: 65vh;
+  }
+
+  #landingCards_heading {
+    margin: 0;
+    margin: 0 1rem;
+    width: 343px;
+    padding: 6px 0;
+    background-color: hsl(0, 0%, 100%, 0.4);
+    border-radius: 10px;
+  }
 }

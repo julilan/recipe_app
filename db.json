@@ -88,6 +88,45 @@
       ],
       "instructions": "1. Heat the lard (or oil) in the pot, add the onions, sprinkle with half of the salt, and cook, covered, over very low heat until the onions are glossy, but not browned.\n2. Turn off the heat (so the paprika doesn’t burn and become bitter) and stir in the paprika.\n3. Add the tomatoes and ½ cup of water and mix.\n4. Turn the heat back on low and place the chicken pieces in the pot. Sprinkle the remaining salt on the chicken, cover, and cook for about 30 minutes. Check every few minutes to see whether it needs more water, and add a bit if it does.\n5. Remove the lid, add the sliced peppers, and cook for a further ten minutes.\n6. In a small bowl, mix the sour cream, flour, and heavy cream.\n7. Remove the pieces of chicken and place the pieces on a serving platter.\n8. Add the sour cream mixture to the paprika sauce and stir until blended. Cook for a minute or two, but don’t let the sauce come to a boil. Pour the paprika sauce over the chicken pieces. Garnish with a spoonful of sour cream, if desired, and sprinkle with paprika.",
       "id": 3
+    },
+    {
+      "name": "Brioches",
+      "author": "Tiina",
+      "origin": "Finland",
+      "description": "Delicious brioches, 8-10 pieces",
+      "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/093FE138-DD7E-485B-83AB-0D949608CCDF/Derivates/f86dcaa7-7c5f-44bf-bba4-083e0c747f6d.jpg",
+      "ingredients": [
+        {
+          "quantity": "2,5 dl",
+          "ingredient": "milk"
+        },
+        {
+          "quantity": "25g",
+          "ingredient": "dry yeast"
+        },
+        {
+          "quantity": "2 tbs",
+          "ingredient": "sugar"
+        },
+        {
+          "quantity": "1,5 tsp",
+          "ingredient": "salt"
+        },
+        {
+          "quantity": "2",
+          "ingredient": "eggs"
+        },
+        {
+          "quantity": "8 dl",
+          "ingredient": "flour"
+        },
+        {
+          "quantity": "125g",
+          "ingredient": "butter"
+        }
+      ],
+      "instructions": "Warm butter to room temperature and cut to small pieces. Mix dry ingredients. Warm milk to required temperature. Add yeast to milk. Add eggs to milk mixture and combine dry ingredients. Mix and add butter bit by bit and knead the dough for 5 minutes. Cover with cloth or plastic and let proof for half an hour. Cut the dough to eight to ten pieces and shape them how you like. Put them on a baking tray covered by baking paper. Let them proof for 15 minutes under a cloth. Brush with egg and bake in 200 C for 15-18 minutes.",
+      "id": 4
     }
   ]
 }

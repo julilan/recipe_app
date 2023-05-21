@@ -22,6 +22,10 @@ Built with:
 - Axios
 
 ## Setup and Usage
+- Clone repository
+```
+git clone https://github.com/julilan/recipe_app.git
+```
 - Install packages
 ```
 npm install

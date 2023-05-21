@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home">
       <div className="banner">
         <video id="bg-video" src={video} autoPlay loop muted />
-        <h4>Realm of Recipes</h4>
+        <p id="banner_heading">Realm of Recipes</p>
         <p>
           Recipe app - Final task for React Basics course for REACT23K group
         </p>

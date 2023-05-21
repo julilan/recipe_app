@@ -1,13 +1,13 @@
 # Recipe App
 
-Final task for REACT23K
+Final task for REACT23K React Basics course.
 
 ## Features
 
-- routing for pages
-- a local JSON server for saving recipes
-- form to add a recipe and
-- simple listing for displaying added recipes (from db.json)
+User can:
+- add new recipes
+- view added recipes and search recipes by their name or country origin
+- view recipe details
 
 ## Technologies used
 
@@ -21,29 +21,21 @@ Built with:
 - JSON server
 - Axios
 
-## Dependencies
-
+## Setup and Usage
+- Install packages
 ```
 npm install
 ```
-
+- Run the app in development mode
 ```
-npm install react-router-dom@6
-npm install axios
-npm install json-server --save-dev
-npm install country-flags-svg
+npm start
 ```
-
-## JSON server
-
-Add script
-
-```json
-"server": "json-server -p4001 --watch db.json"
-```
-
-Run script
-
+- Start JSON server
 ```
 npm run server
 ```
+- Find app at http://localhost:3000/ (default port)
+
+## Author
+
+Julianna Molnár [@julilan](https://github.com/julilan)

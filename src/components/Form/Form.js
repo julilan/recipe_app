@@ -47,11 +47,9 @@ const Form = () => {
   };
 
   const submitHandler = (e) => {
-    //e.preventDefault();
     axios
       .post("http://localhost:4001/recipes", recipe)
       .then((res) => {
-        console.log("data posted: ", res.data);
         setRecipe({
           name: "",
           author: "",

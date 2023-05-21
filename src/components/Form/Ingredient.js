@@ -11,6 +11,7 @@ const Ingredient = ({ quantityChange, ingredientChange, index }) => {
           id="quantity"
           name="quantity"
           onChange={(e) => quantityChange(e, index)}
+          required
         />
       </div>
       <div>
@@ -20,6 +21,7 @@ const Ingredient = ({ quantityChange, ingredientChange, index }) => {
           id="ingredient"
           name="ingredient"
           onChange={(e) => ingredientChange(e, index)}
+          required
         />
       </div>
     </div>

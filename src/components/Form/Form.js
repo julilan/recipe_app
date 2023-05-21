@@ -70,9 +70,21 @@ const Form = () => {
     <form className={classes.form} onSubmit={submitHandler}>
       <h2>Add new recipe</h2>
       <label htmlFor="name">Name</label>
-      <input type="text" id="name" name="name" onChange={changeHandler} />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        onChange={changeHandler}
+        required
+      />
       <label htmlFor="author">Author</label>
-      <input type="text" id="author" name="author" onChange={changeHandler} />
+      <input
+        type="text"
+        id="author"
+        name="author"
+        onChange={changeHandler}
+        required
+      />
       <label htmlFor="origin">Recipe is from:</label>
       <CountryList change={changeHandler} />
       <label htmlFor="description">Description</label>
@@ -82,9 +94,16 @@ const Form = () => {
         cols="30"
         rows="5"
         onChange={changeHandler}
+        required
       ></textarea>
       <label htmlFor="image">Image</label>
-      <input type="text" id="image" name="image" onChange={changeHandler} />
+      <input
+        type="text"
+        id="image"
+        name="image"
+        onChange={changeHandler}
+        required
+      />
       <label htmlFor="ingredients">Ingredients</label>
       {ingredients.map((ingredient, i) => (
         <Ingredient
@@ -102,6 +121,7 @@ const Form = () => {
         cols="30"
         rows="5"
         onChange={changeHandler}
+        required
       ></textarea>
       <button type="submit">Post recipe</button>
     </form>

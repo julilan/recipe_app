@@ -2,7 +2,13 @@ import React from "react";
 
 const CountryList = ({ change }) => {
   return (
-    <select className="form-select" id="origin" name="origin" onChange={change}>
+    <select
+      className="form-select"
+      id="origin"
+      name="origin"
+      onChange={change}
+      required
+    >
       <option value="" invalid="true" hidden>
         Select a country
       </option>

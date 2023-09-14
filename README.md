@@ -1,3 +1,5 @@
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=julilan_recipe_app&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=julilan_recipe_app) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=julilan_recipe_app&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=julilan_recipe_app) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=julilan_recipe_app&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=julilan_recipe_app)
+
 # Recipe App
 
 Final task for REACT23K React Basics course.
